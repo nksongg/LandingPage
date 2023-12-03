@@ -1,0 +1,147 @@
+body{
+    display:flex;
+    flex-direction:column;
+    margin:0;
+    padding:0;
+    background-color: #1f2937;
+}
+
+/* everything here is for the header part*/
+#HEADER{
+    display:flex;
+    flex-flow:column wrap;
+}
+
+.box_one{
+    color:#F9faf8;
+    flex:auto;
+    display:flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right:100px;
+}
+
+.box_one ul{
+    list-style:none;
+    display:flex;
+    gap: 20px;
+    padding-top:20px;
+}
+
+.box_two{
+    flex:auto;
+    display:flex;
+    text-align:left;
+    width:80%;
+    padding: 100px;
+    gap:50px;
+    justify-content:center;
+}
+
+.box_two_item{
+    width: 400px;
+    height: 400px;
+}
+
+.box_two button{
+    background-color: #3882f6;
+    color:white;
+    border-radius:5px;
+    padding:5px;
+    padding-left:15px;
+    padding-right:15px;
+
+}
+.box_two img{
+    height:200px;
+    width:400px;
+    padding-top: 40px;
+}
+
+.h_logo{
+    font-size: 24px;
+}
+
+.h_main{
+    font-size:48px;
+    color: #f9faf8;
+    font-weight:bolder;
+}
+
+.h_secondary{
+    font-size:18px;
+    color:#e5e7eb;
+    font-weight:lighter;
+}
+
+/* starting with "some random information part" */
+
+#INFO {
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-bottom:200px;
+}
+
+.info_title{
+    font-size:36px;
+    color: #1f2937;
+    font-weight:bolder;
+}
+
+.info_images{
+    display:flex;
+    gap: 50px;
+}
+
+.info_images img{
+    width: 150px;
+    height:150px;
+    border: 4px solid #3882f6;
+    border-radius:25px;
+    font-size:18px;
+    color:#1f2937;
+    font-weight:lighter;
+}
+
+.info_images div{
+    display:flex;
+    flex-direction: column;
+    width:150px;
+    height:150px;
+    text-align:center;
+    align-items:center;
+}
+
+/* Quote section  */
+
+#QUOTE{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding-bottom:150px;
+    padding-top: 150px;
+    background-color: #e5e7eb;
+}
+
+#QUOTE p{
+    flex:auto;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight:light italic;
+    color: #1F2937;
+    width: 700px;
+    height:150px;
+    margin-bottom: 0px;
+}
+
+.signature{
+    font-size: 20px;
+    font-weight:bolder;
+    margin-left:600px;
+    width: 300px;
+}
